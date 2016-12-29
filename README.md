@@ -1,1 +1,1 @@
-nodegit-typings
+# `nodegit.typings`
