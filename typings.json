@@ -1,4 +1,5 @@
 {
-  "name": "nodegit",
-  "main": "index.d.ts"
+    "name": "nodegit",
+    "version": "0.0.1",
+    "main": "index.d.ts"
 }
