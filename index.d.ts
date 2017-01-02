@@ -1,8 +1,8 @@
 declare namespace nodegit {
-    function Clone(url: string, name: string): Promise<GitRepository>
+    function Clone(url: string, name: string): Promise<GitRepository>;
 
     interface GitRepository {
-        getBranchCommit(branchName: string): RepositoryCommit;
+        getBranchCommit(branchName: string): Promise<RepositoryCommit>;
     }
 
     interface RepositoryCommit {
